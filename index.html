@@ -10,8 +10,18 @@
     <link rel="stylesheet" HREF="./styles.css">
     <script src="script.js"></script>
 <body>
-    <p id="intro">Welcome to the Creep Show</p>
-    <p id="intro2">Where Haloween fun comes to stay!</p>
+    <div>
+        <table id="heading">
+            <tr>
+                <th><img src="images/spider.png" id="spider1"></th>
+                <th>
+                    <p id="intro">Welcome to the Creep Show</p>
+                    <p id="intro2">Where Haloween fun comes to stay!</p>
+                </th>
+                <th><img src="images/spider.png" id="spider2"></th>
+            </tr>
+        </table>
+    </div>
     <p id="intro3">October 31, 2023</p>
     <p id="intro4">We have many costumes to choose from!</p><br>
     <table id="costumes">
@@ -19,16 +29,19 @@
             <th><img src="images/scream.jpg" id="scream"></th>
             <th><img src="images/harry.jpg" id="harry"></th>
             <th><img src="images/jack.jpg" id="jack"></th>
+            <th><img src="images/anna.jpg" id="anna"></th>
         </tr>
         <tr id="costumeInfo">
             <td>Scream Costume</td>
             <td>Harry Potter</td>
             <td>Jack Skellington</td>
+            <td>Princess Anna</td>
         </tr>
         <tr id="costumeInfo">
             <td>$25</td>
             <td>$35</td>
             <td>$23</td>
+            <td>$38</td>
         </tr>
     </table><br><br>
     <p id="intro5">We have many scary movies for you to stream!</p><br>
@@ -71,7 +84,6 @@
     <div>
         <p id="join">Stay in touch! Enter your email below!</p>
             <div>
-
                 <form action="action_page.php" method="post">
                     <label for="email" id="email">
                         Enter your email:
@@ -88,6 +100,37 @@
         This day marked the end of summer and the harvest and the beginning of the dark, cold winter, a time of year that was often associated with human death. Celts believed that on the night before the new year, the boundary between the worlds of the living and the dead became blurred. On the night of October 31 they celebrated Samhain, when it was believed that the ghosts of the dead returned to earth.
         </p>
         <br>
+    <div>
+        <p id="event">We have a Pumpkin Carving event!</p>
+        <p id="winners">Here are some of last year's winners</p>
+        <table id="pumpkins">
+            <tr>
+                <th><img src="images/skull.jpg" id="skull"></th>
+                <th><img src="images/teeth.jpg" id="teeth"></th>
+                <th><img src="images/landscape.jpg" id="landscape"></th>
+            </tr>
+            <tr id="pumpkinInfo">
+                <td>Skull Design</td>
+                <td>Teeth</td>
+                <td>Landscape</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="pumpkinInfo2">
+                <td>This pumpkin was picked because it was unique and very detailed</td>
+                <td>This pumpkin was made to represent a Disney Character! Do you know who it is?</td>
+                <td>This pumpkin represents the great outdoors</td>
+            </tr>
+        </table>
+        <br><br>
+    </div>
+
+
+
+
 
 
 </body>
