@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+#intro {
+    font-family: 'Creepster';
+    color:darkorange;
+    font-size: 3rem;
+    text-align: center;
+}
+#intro2 {
+    font-family: 'Creepster';
+    color:darkorange;
+    font-size: 2rem;
+    text-align: center;
+}
+#intro3 {
+    font-family: 'Creepster';
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+#intro4 {
+    font-family: 'Creepster';
+    color:greenyellow;
+    font-size: 2rem;
+    text-align: center;
+}
+#costumes {
+    margin: auto;
+    width: 20rem;
+}
+#scream {
+    margin-right: 2rem;
+    width: 15rem;
+}
+#harry {
+    margin-right: 2rem;
+    width: 15rem;
+}
+#jack {
+    width: 15rem;
+}
+#costumeInfo {
+    font-family: 'Creepster';
+    color:greenyellow;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#movies {
+
+}
+
