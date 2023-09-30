@@ -7,7 +7,7 @@ body {
     position: relative;
     animation-name: example;
     animation-duration: 10s;
-    animation-iteration-count: 5;
+    animation-iteration-count: 10;
 }
 @keyframes example {
     0% {left:0px; top: 0px;}
