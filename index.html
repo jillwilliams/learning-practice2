@@ -10,13 +10,18 @@
     <link rel="stylesheet" HREF="./styles.css">
     <script src="script.js"></script>
 <body>
+    <audio id="song">
+        <source src="thunder.mp3">
+    </audio>
+    <script>
+        window.addEventListener('click',() => {
+            document.getElementById("song").play();
+        });
+    </script>
     <div>
-        <audio controls autostart loop>
-            <source src="thunder.mp3">
-        </audio>
-        <!-- <embed src="thunder.mp3" loop="true" autostart="true" width="2" height="0"> -->
-    </div>
-    <div>
+        
+        <img src="images/ghost1.jpg" id="ghost">
+        
         <table id="heading">
             <tr>
                 <th><img src="images/spider.png" id="spider1"></th>
